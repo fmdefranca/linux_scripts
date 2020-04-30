@@ -1,0 +1,16 @@
+dbaeumer.jshint
+dbaeumer.vscode-eslint
+dsznajder.es7-react-js-snippets
+eamodio.gitlens
+ecmel.vscode-html-css
+esbenp.prettier-vscode
+HookyQR.beautify
+jamesmaj.easy-icons
+jpoissonnier.vscode-styled-components
+ms-python.python
+msjsdiag.debugger-for-chrome
+msjsdiag.vscode-react-native
+ritwickdey.LiveServer
+swashata.beautiful-ui
+VisualStudioExptTeam.vscodeintellicode
+Zignd.html-css-class-completion
