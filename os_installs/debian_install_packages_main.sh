@@ -32,7 +32,7 @@ fi
 # output_end Code Ext
 
 # install apps
-sudo apt install -y neovim zsh tmux git inkscape postgresql postgresql-contrib
+sudo apt install -y neovim zsh tmux git inkscape postgresql postgresql-contrib gcc g++ make
 output_end Apps
 
 # install oh my zsh and copy files to directory
@@ -59,3 +59,12 @@ output_end React
 # Move Fonts
 sudo cp -r bin/.fonts /home/$USER
 output_end Fonts
+
+
+# # Run `sudo apt-get install -y nodejs` to install Node.js 13.x and npm
+# ## You may also need development tools to build native addons:
+#      sudo apt-get install gcc g++ make
+# ## To install the Yarn package manager, run:
+#      curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+#      echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+#      sudo apt-get update && sudo apt-get install yarn
