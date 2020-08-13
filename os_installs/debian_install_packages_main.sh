@@ -46,7 +46,7 @@ output_end "Oh My ZSH"
 # install nodejs and npm
 # echo "Installing NodeJS & NPM"
 sudo apt install -y curl
-curl -sL https://deb.nodesource.com/setup_13.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 sudo apt install -y nodejs
 # node --version
 # npm --version
