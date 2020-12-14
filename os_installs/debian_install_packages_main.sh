@@ -28,11 +28,11 @@ fi
 
 # install extensions
 # pwd
-# cat bin/vs_code_extensions_list.txt | xargs -n 1 code --install-extension
-# output_end Code Ext
+cat bin/vs_code_extensions_list.txt | xargs -n 1 code --install-extension
+output_end Code Ext
 
 # install apps
-sudo apt install -y neovim zsh tmux git inkscape postgresql postgresql-contrib gcc g++ make
+sudo apt install -y neovim zsh tmux git postgresql postgresql-contrib gcc g++ make
 output_end Apps
 
 # install oh my zsh and copy files to directory
@@ -50,11 +50,13 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 sudo apt install -y nodejs
 # node --version
 # npm --version
-npm install -g jshint
+sudo npm i -g jshint
 output_end Node
 # install react
 sudo npm i -g create-react-app
 output_end React
+# Install react-static
+sudo npm i -g react-static
 
 # Move Fonts
 sudo cp -r bin/.fonts /home/$USER
